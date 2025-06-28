@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Personal Portfolio</title>
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-color: rgb(248, 248, 248);
+      color: rgb(30, 30, 30);
+    }
+
+    header {
+      background-color: rgb(44, 62, 80);
+      color: white;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    header h1 { font-size: 32px; }
+    header p  { font-size: 16px; opacity: 0.85; }
+
+    section { padding: 40px 30px; }
+
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+    .about img {
+      width: 180px;
+      height: 180px;
+      border-radius: 90px;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .bio { max-width: 500px; }
+
+    .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .skills li {
+      background-color: rgb(44, 62, 80);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+
+    .projects .project {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .projects img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    .resume a {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: rgb(39, 174, 96);
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .contact p { margin-bottom: 10px; }
+
+    footer {
+      background-color: rgb(44, 62, 80);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Mayuri Bayan</h1>
+    <p>Web Developer&nbsp;|&nbsp;Front-End Enthusiast</p>
+  </header>
+
+  <section class="about">
+
+    <img src="me.jpg"
+         alt="Profile image of Mayuri Bayan">
+    <div class="bio">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate beginner in the field of web development who enjoys building clean and responsive
+        websites. Beyond coding, I also love music, art, dance, and crochet,
+        which inspire my creativity in every project.
+      </p>
+    </div>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Flutist</li>
+      <li>Singing</li>
+      <li>Drawing (basic)</li>
+      <li>Dance</li>
+      <li>Crochet</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Landing Page</h3>
+      <p>A clean and simple landing page built with HTML and CSS.</p>
+      <img src="https://via.placeholder.com/500x300" alt="Landing Page Screenshot">
+    </div>
+
+    <div class="project">
+      <h3>Tribute Page</h3>
+      <p>A tribute page dedicated to Dr. A.P.J. Abdul Kalam with inspiring content.</p>
+      <img src="https://via.placeholder.com/500x300" alt="Tribute Page Screenshot">
+    </div>
+  </section>
+
+  <section class="resume">
+    <h2>Resume</h2>
+    <a href="#">Download Resume (PDF)</a>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: mayuribayan@gmail.com</p>
+    <p>Phone: 9954128197</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Mayuri Bayan. All rights reserved.
+  </footer>
+
+</body>
+</html>
